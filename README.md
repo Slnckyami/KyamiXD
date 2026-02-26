@@ -1,7 +1,7 @@
 # WhatsApp Baileys
 
 <p align="center">
-  <img src="https://files.catbox.moe/cyxu94.jpg" alt="Thumbnail" />
+  <img src="https://files.catbox.moe/ibz8hp.jpg" alt="Thumbnail" />
 </p>
 
 WhatsApp Baileys is an open-source library designed to help developers build automation solutions and integrations with WhatsApp efficiently and directly. Using websocket technology without the need for a browser, this library supports a wide range of features such as message management, chat handling, group administration, as well as interactive messages and action buttons for a more dynamic user experience.
@@ -82,7 +82,7 @@ await sock.sendMessage(jid, {
     eventMessage: { 
         isCanceled: false, 
         name: "Hello World", 
-        description: "Vld_TheKingsZuro", 
+        description: "KyamiSilence", 
         location: { 
             degreesLatitude: 0, 
             degreesLongitude: 0, 
@@ -125,7 +125,7 @@ await sock.sendMessage(jid, {
     interactiveMessage: {
         header: "Hello World",
         title: "Hello World",
-        footer: "telegram: @Vld_TheKingsZuro ",
+        footer: "telegram: @KyamiSilence ",
         buttons: [
             {
                 name: "cta_copy",
@@ -148,13 +148,13 @@ await sock.sendMessage(jid, {
     interactiveMessage: {      
         header: "Hello World",
         title: "Hello World",      
-        footer: "telegram: @Vld_TheKingsZuro",      
-        image: { url: "https://files.catbox.moe/cyxu94.jpg" },      
+        footer: "telegram: @KyamiSilence",      
+        image: { url: "https://files.catbox.moe/ibz8hp.jpg" },      
         nativeFlowMessage: {        
             messageParamsJson: JSON.stringify({          
                 limited_time_offer: {            
                     text: "idk hummmm?",            
-                    url: "https://t.me/Vld_TheKingsZuro",            
+                    url: "https://t.me/KyamiSilence",            
                     copy_code: "RΞGΔL",            
                     expiration_time: Date.now() * 999          
                 },          
@@ -167,7 +167,7 @@ await sock.sendMessage(jid, {
                 tap_target_configuration: {            
                     title: " X ",            
                     description: "bomboclard",            
-                    canonical_url: "https://t.me/Vld_TheKingsZuro",            
+                    canonical_url: "https://t.me/KyamiSilence",            
                     domain: "shop.example.com",            
                     button_index: 0          
                 }        
@@ -195,7 +195,7 @@ await sock.sendMessage(jid, {
                                 highlight_label: "label",                  
                                 rows: [                    
                                     {                      
-                                        title: "@Vld_TheKingsZuro",                      
+                                        title: "@KyamiSilence",                      
                                         description: "love you",                      
                                         id: "row_2"                    
                                     }                  
@@ -227,7 +227,7 @@ await sock.sendMessage(jid, {
     interactiveMessage: {
         header: "Hello World",
         title: "Hello World",
-        footer: "telegram: @Vld_TheKingsZuro",
+        footer: "telegram: @KyamiSilence",
         image: { url: "https://example.com/image.jpg" },
         buttons: [
             {
@@ -280,7 +280,7 @@ await sock.sendMessage(jid, {
     interactiveMessage: {
         header: "Hello World",
         title: "Hello World",
-        footer: "telegram: @Vld_TheKingsZuro",
+        footer: "telegram: @KyamiSilence",
         document: fs.readFileSync("./package.json"),
         mimetype: "application/pdf",
         fileName: "RΞGΔL.pdf",
@@ -296,7 +296,7 @@ await sock.sendMessage(jid, {
             mediaType: 3,
             thumbnailUrl: "https://example.com/image.jpg",
             mediaUrl: " X ",
-            sourceUrl: "https://t.me/Vld_TheKingsZuro",
+            sourceUrl: "https://t.me/KyamiSilence",
             showAdAttribution: true,
             renderLargerThumbnail: false         
         },
@@ -305,7 +305,7 @@ await sock.sendMessage(jid, {
                 name: "cta_url",
                 buttonParamsJson: JSON.stringify({
                     display_text: "Telegram",
-                    url: "https://t.me/Vld_TheKingsZuro",
+                    url: "https://t.me/KyamiSilence",
                     merchant_url: "https://t.me/yumevtc"
                 })
             }
@@ -322,7 +322,7 @@ await sock.sendMessage(jid, {
     interactiveMessage: {
         header: "Hello World",
         title: "Hello World",
-        footer: "telegram: @Vld_TheKingsZuro",
+        footer: "telegram: @KyamiSilence",
         document: fs.readFileSync("./package.json"),
         mimetype: "application/pdf",
         fileName: "RΞGΔL.pdf",
@@ -332,8 +332,8 @@ await sock.sendMessage(jid, {
                 name: "cta_url",
                 buttonParamsJson: JSON.stringify({
                     display_text: "Telegram",
-                    url: "https://t.me/Vld_TheKingsZuro",
-                    merchant_url: "https://t.me/Vld_TheKingsZuro"
+                    url: "https://t.me/KyamiSilence",
+                    merchant_url: "https://t.me/KyamiSilence"
                 })
             }
         ]
